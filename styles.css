@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.main-container .main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #1c2431;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-header {
+    padding: 50px;
+  }
+}
+
+.main-container .main-header .main-header__logo {
+  width: 88px;
+  height: 25px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-header .main-header__logo {
+    width: 176px;
+    height: 52px;
+  }
+}
+
+.main-container .main-header .main-header__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container .main-header .main-header__menu {
+  margin: 0;
+  padding: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.main-container .main-header .main-header__menu > li {
+  display: inline;
+  padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-header .main-header__menu > li {
+    padding-left: 30px;
+  }
+}
+
+.main-container .main-header .main-header__menu > li > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-header .main-header__menu > li > a {
+    font-size: 18px;
+  }
+}
+
+.main-container .main-header .main-header__menu > li > a:hover {
+  text-decoration: underline;
+}
+
+.main-container .main-content .main-content__wrapper {
+  background: url(images/bg-curvy-mobile.svg) no-repeat, #1c2431;
+  background-position: bottom center;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-content .main-content__wrapper {
+    background: url(images/bg-curvy-desktop.svg) no-repeat, #1c2431;
+    background-position: bottom center;
+  }
+}
+
+.main-container .main-content .main-content__wrapper .main-content__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-content .main-content__wrapper .main-content__first {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-container .main-content .main-content__wrapper .main-content__first {
+    width: 30%;
+  }
+}
+
+.main-container .main-content .main-content__wrapper .main-content__first .first__image {
+  width: 224px;
+  height: 164px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-content .main-content__wrapper .main-content__first .first__image {
+    width: 360px;
+    height: 267px;
+  }
+}
+
+.main-container .main-content .main-content__wrapper .main-content__first .first__image > img {
+  width: 100%;
+  height: 100;
+}
+
+.main-container .main-content .main-content__wrapper .main-content__first h1 {
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.main-container .main-content .main-content__wrapper .main-content__first p {
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.main-container .main-content .main-content__wrapper .main-content__first button {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  background-color: #339ecc;
+  border: none;
+  padding: 15px 70px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .main-container .main-content .main-content__wrapper .main-content__first button {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+
+.main-container .main-content .main-content__wrapper .main-content__first button:hover {
+  outline: none;
+  background-color: #65e2d9;
+}
+/*# sourceMappingURL=styles.css.map */

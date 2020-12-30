@@ -1,0 +1,162 @@
+//Fonts
+$header-font: 'Raleway', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+body {
+    margin: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+    a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+.main-container {
+    //max-width: 1280px;
+    //margin: 0 auto;
+    width: 100%;
+    
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: hsl(217, 28%, 15%);
+        padding: 20px;
+        align-items: center;
+
+        @media (min-width: 768px) {
+            padding: 50px;
+        }
+
+        .main-header__logo {
+            width: 88px;
+            height: 25px;
+            margin: 0;
+
+            @media (min-width: 768px) {
+                width: 176px;
+                height: 52px;
+            }
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .main-header__menu {
+            margin: 0;
+            padding: 0;
+            height: fit-content;
+        }
+
+        .main-header__menu > li {
+            display: inline;
+            padding-left: 10px;
+
+            @media (min-width: 768px) {
+                padding-left: 30px;
+            }
+        }
+
+        .main-header__menu > li > a {
+            color: hsl(0, 0%, 100%);
+            text-decoration: none;
+            font-family: $header-font;
+            font-size: 14px;
+
+            @media (min-width: 768px) {
+                font-size: 18px;
+            }
+        }
+
+        .main-header__menu > li > a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .main-content {
+
+        .main-content__wrapper {
+            background: url(images/bg-curvy-mobile.svg) no-repeat, hsl(217, 28%, 15%);
+            background-position: bottom center;
+
+            @media (min-width: 768px) {
+                background: url(images/bg-curvy-desktop.svg) no-repeat, hsl(217, 28%, 15%);
+                background-position: bottom center;
+            }
+
+            .main-content__first {
+                display: flex;
+                flex-direction: column;
+                //width: 100%;
+                height: 100%;
+                padding: 20px;
+                font-family: $header-font;
+                text-align: center;
+                align-items: center;
+
+                @media (min-width: 768px) {
+                    width: 40%;
+                    margin: auto;
+                }
+
+                @media (min-width: 1440px) {
+                    width: 30%;
+                }
+    
+                .first__image {
+                    width: 224px;
+                    height: 164px;
+                    margin: auto;
+                    
+                    @media (min-width: 768px) {
+                        width: 360px;
+                        height: 267px;
+                    }
+                }
+    
+                .first__image > img {
+                    width: 100%;
+                    height: 100;
+                }
+    
+                h1 {
+                    color: hsl(0, 0%, 100%);
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+    
+                p {
+                    color: hsl(0, 0%, 100%);
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+    
+                button {
+                    color: hsl(0, 0%, 100%);
+                    font-family: $header-font;
+                    font-weight: 700;
+                    background-color: hsl(198, 60%, 50%);
+                    border: none;
+                    padding: 15px 70px;
+                    border-radius: 50px;
+                    cursor: pointer;
+
+                    @media (min-width: 1024px) {
+                        width: fit-content;
+                    }
+                }
+    
+                button:hover {
+                    outline: none;
+                    background-color: hsl(176, 68%, 64%);
+                }
+            }
+        }
+    }
+}   
