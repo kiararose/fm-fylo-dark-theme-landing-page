@@ -176,7 +176,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
   padding: 20px;
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -187,14 +186,7 @@ body {
 
 @media (min-width: 768px) {
   .main-container .main-content .main-content__wrapper1 .main-content__first {
-    width: 40%;
     margin: auto;
-  }
-}
-
-@media (min-width: 1440px) {
-  .main-container .main-content .main-content__wrapper1 .main-content__first {
-    width: 30%;
   }
 }
 
@@ -211,21 +203,65 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  .main-container .main-content .main-content__wrapper1 .main-content__first .first__illustration {
+    width: 720px;
+    height: 534px;
+  }
+}
+
 .main-container .main-content .main-content__wrapper1 .main-content__first .first__illustration > img {
   width: 100%;
   height: 100;
 }
 
-.main-container .main-content .main-content__wrapper1 .main-content__first h1 {
+.main-container .main-content .main-content__wrapper1 .main-content__first .first__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main-container .main-content .main-content__wrapper1 .main-content__first .first__description {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-container .main-content .main-content__wrapper1 .main-content__first .first__description {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-container .main-content .main-content__wrapper1 .main-content__first .first__description {
+    width: 30%;
+  }
+}
+
+.main-container .main-content .main-content__wrapper1 .main-content__first .first__description h1 {
   color: white;
   font-size: 20px;
   line-height: 28px;
 }
 
-.main-container .main-content .main-content__wrapper1 .main-content__first p {
+.main-container .main-content .main-content__wrapper1 .main-content__first .first__description p {
   color: white;
   font-size: 14px;
   line-height: 20px;
+}
+
+.main-container .main-content .main-content__wrapper1 .main-content__first .first__description .button {
+  width: unset;
+  padding: 15px 70px;
 }
 
 .main-container .main-content .main-content__wrapper2 {
@@ -236,7 +272,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  padding: 30px 20px;
+  padding: 50px 20px;
   background-color: #181f2a;
 }
 
@@ -344,8 +380,8 @@ body {
 
 @media (min-width: 1024px) {
   .main-container .main-content .main-content__wrapper3 .second__illustration {
-    width: 345px;
-    height: 256px;
+    width: 615px;
+    height: 465px;
   }
 }
 
