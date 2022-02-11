@@ -717,6 +717,22 @@ body {
   outline: none;
 }
 
+.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus::placeholder {
+  color: transparent;
+}
+
 @media (min-width: 768px) {
   .main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:first-child {
     width: 45%;
