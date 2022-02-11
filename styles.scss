@@ -2,8 +2,13 @@
 $header-font: 'Raleway', sans-serif;
 $body-font: 'Open Sans', sans-serif;
 
-body {
+html, body {
+    background: none;
+    width: 100%;
+    height: 100%;
     margin: 0;
+    padding: 0;
+    //background-color: #181f2a;
 }
 
 .attribution { 
@@ -498,11 +503,23 @@ body {
                     }
                 }
 
+                
+            }
+        } 
+
+        .main-content__wrapper5 {
+            background-color: #181f2a;
+            
+            .main-content__fifth {
+                display: flex;
+                justify-content: center;
+
                 .content__signup {
                     background-color:  hsl(219, 30%, 18%);
                     display: flex;
                     flex-direction: column;
-                    margin: 100px 0 -200px 0;
+                    //margin: 116px 0 -174px 0;
+                    margin: 0 0 -112px 0;
                     padding: 30px;
                     border-radius: 10px;
                     align-items: center;
@@ -510,7 +527,8 @@ body {
         
                     @media (min-width: 768px) {
                         width: 600px;
-                        margin: 116px 0 -174px 0;
+                        //margin: 100px 0 -112px 0;
+                        
                     }
         
                     h1 {
@@ -569,7 +587,7 @@ body {
                     }
                 }
             }
-        } 
+        }
     }
 
     .main-footer {

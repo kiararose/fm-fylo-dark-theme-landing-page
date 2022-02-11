@@ -1,5 +1,9 @@
-body {
+html, body {
+  background: none;
+  width: 100%;
+  height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .attribution {
@@ -641,7 +645,20 @@ body {
   }
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup {
+.main-container .main-content .main-content__wrapper5 {
+  background-color: #181f2a;
+}
+
+.main-container .main-content .main-content__wrapper5 .main-content__fifth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup {
   background-color: #202a3c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,7 +667,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 100px 0 -200px 0;
+  margin: 0 0 -112px 0;
   padding: 30px;
   border-radius: 10px;
   -webkit-box-align: center;
@@ -660,26 +677,25 @@ body {
 }
 
 @media (min-width: 768px) {
-  .main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup {
+  .main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup {
     width: 600px;
-    margin: 116px 0 -174px 0;
   }
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup h1 {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup h1 {
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   color: white;
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup p {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: white;
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,7 +708,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  .main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email {
+  .main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -703,44 +719,44 @@ body {
   }
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input + input {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input + input {
   margin-top: 20px;
 }
 
 @media (min-width: 768px) {
-  .main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input + input {
+  .main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input + input {
     margin-top: 0;
   }
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input:focus {
   outline: none;
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus::-webkit-input-placeholder {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus:-ms-input-placeholder {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus::-ms-input-placeholder {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input:focus::-ms-input-placeholder {
   color: transparent;
 }
 
-.main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:focus::placeholder {
+.main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input:focus::placeholder {
   color: transparent;
 }
 
 @media (min-width: 768px) {
-  .main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input:first-child {
+  .main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input:first-child {
     width: 45%;
   }
 }
 
 @media (min-width: 768px) {
-  .main-container .main-content .main-content__wrapper4 .main-content__fourth .content__signup .email input {
+  .main-container .main-content .main-content__wrapper5 .main-content__fifth .content__signup .email input {
     width: 40%;
   }
 }
