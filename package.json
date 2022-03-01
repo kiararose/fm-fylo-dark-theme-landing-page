@@ -1,0 +1,23 @@
+{
+  "name": "fylo-dark-theme-landing-page",
+  "version": "1.0.0",
+  "description": "Front end mentor challenge",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiararose/fm-fylo-dark-theme-landing-page.git"
+  },
+  "author": "Kiara Rose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiararose/fm-fylo-dark-theme-landing-page/issues"
+  },
+  "homepage": "https://github.com/kiararose/fm-fylo-dark-theme-landing-page#readme"
+}
